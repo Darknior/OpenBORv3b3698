@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="..\openbor.c" open="1" top="0" tabpos="4">
+		<Cursor position="351628" topLine="10339" />
+	</File>
+	<File name="..\openbor.h" open="1" top="0" tabpos="2">
+		<Cursor position="35004" topLine="762" />
+	</File>
+	<File name="..\openborscript.c" open="1" top="1" tabpos="1">
+		<Cursor position="98479" topLine="3555" />
+	</File>
+	<File name="..\openborscript.h" open="1" top="0" tabpos="3">
+		<Cursor position="316" topLine="0" />
+	</File>
+	<File name="..\sdl\menu.c" open="0" top="0" tabpos="0">
+		<Cursor position="18294" topLine="643" />
+	</File>
+	<File name="..\source\preprocessorlib\pp_parser.c" open="1" top="0" tabpos="5">
+		<Cursor position="21344" topLine="744" />
+	</File>
+	<File name="..\source\scriptlib\List.c" open="1" top="0" tabpos="6">
+		<Cursor position="315" topLine="0" />
+	</File>
+	<File name="..\source\scriptlib\List.h" open="0" top="0" tabpos="0">
+		<Cursor position="315" topLine="0" />
+	</File>
+	<File name="..\source\scriptlib\List_unittest.c" open="0" top="0" tabpos="0">
+		<Cursor position="259" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
