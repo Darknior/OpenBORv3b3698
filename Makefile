@@ -143,11 +143,11 @@ BUILD_PTHREAD   = 1
 BUILD_SDL_IO    = 1
 BUILD_TREMOR    = 1
 BUILDING        = 1
-CC  	        = $(PNDDEV)/bin/arm-none-linux-gnueabi-gcc
+CC  	        = gcc
 INCLUDES        = $(PNDDEV)/include \
                   $(PNDDEV)/include/SDL
 OBJTYPE         = elf
-LIBRARIES       = $(PNDDEV)/lib
+LIBRARIES       = ./lib
 ifeq ($(BUILD_PANDORA), 0)
 BUILD_DEBUG     = 1
 endif
@@ -266,7 +266,7 @@ ifdef BUILD_DARWIN
 STRIP           = $(PREFIX)strip $(TARGET) -o $(TARGET_FINAL)
 endif
 ifdef BUILD_PANDORA
-STRIP 	        = $(PNDDEV)/bin/arm-none-linux-gnueabi-strip $(TARGET) -o $(TARGET_FINAL)
+STRIP 	        = strip $(TARGET) -o $(TARGET_FINAL)
 endif
 ifdef BUILD_GP2X
 STRIP 	        = $(GP2XDEV)/arm-open2x-linux-strip $(TARGET) -o $(TARGET_FINAL)
